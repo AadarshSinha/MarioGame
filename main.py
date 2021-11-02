@@ -101,7 +101,7 @@ def Game():
     accelerate=9
     air=False
     score=0
-    pygame.mixer.Sound("/Users/aadarsh/Documents/VSCode/Mario_Game/sounds/background.mp3").play()
+    # pygame.mixer.Sound("/Users/aadarsh/Documents/VSCode/Mario_Game/sounds/background.mp3").play()
     while True:
         font=pygame.font.Font(pygame.font.get_default_font(), 100)
         result = font.render("SCORE : " + str(score),True,(255,0,0))
